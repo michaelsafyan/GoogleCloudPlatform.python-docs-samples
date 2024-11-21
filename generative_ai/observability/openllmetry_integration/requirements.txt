@@ -18,17 +18,17 @@ opentelemetry-exporter-gcp-monitoring==1.7.a0
 # For langchain v0.3
 # From https://python.langchain.com/v0.2/docs/versions/overview/
 # With updates based on https://python.langchain.com/docs/versions/v0_3/
-langchain = ">=0.3,<0.4"
-langchain-core = ">=0.3,<0.4"
-langchain-text-splitters = ">=0.3,<0.4"
-pydantic = ">=2,<3"
-SQLAlchemy = ">=1.4,<3"
-requests = "^2"
-PyYAML = ">=5.3"
-numpy = "^1"
-aiohttp = "^3.8.3"
-tenacity = "^8.1.0"
-jsonpatch = "^1.33"
+langchain >=0.3,<0.4
+langchain-core >=0.3,<0.4
+langchain-text-splitters >=0.3,<0.4
+pydantic>=2,<3
+SQLAlchemy>=1.4,<3
+requests>=2,<3
+PyYAML >=5.3
+numpy >=1,<2
+aiohttp >=3.8.3,<4
+tenacity >=8.1.0,<9
+jsonpatch >=1.33,<2
 
 # For using LangChain with VertexAI as the backend.
-langchain-google-vertexai = ">=2,<3"
+langchain-google-vertexai >=2,<3
